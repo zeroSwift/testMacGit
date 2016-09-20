@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B5AA3DC1D902DAE00F2FDA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5AA3DB1D902DAE00F2FDA4 /* AppDelegate.swift */; };
+		3B5AA3DE1D902DAE00F2FDA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5AA3DD1D902DAE00F2FDA4 /* ViewController.swift */; };
+		3B5AA3E11D902DAE00F2FDA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B5AA3DF1D902DAE00F2FDA4 /* Main.storyboard */; };
+		3B5AA3E31D902DAE00F2FDA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5AA3E21D902DAE00F2FDA4 /* Assets.xcassets */; };
+		3B5AA3E61D902DAE00F2FDA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B5AA3E41D902DAE00F2FDA4 /* LaunchScreen.storyboard */; };
+		3B5AA3F11D902DAE00F2FDA4 /* tapColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5AA3F01D902DAE00F2FDA4 /* tapColorTests.swift */; };
+		3B5AA3FC1D902DAE00F2FDA4 /* tapColorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5AA3FB1D902DAE00F2FDA4 /* tapColorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B5AA3ED1D902DAE00F2FDA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B5AA3D01D902DAE00F2FDA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B5AA3D71D902DAE00F2FDA4;
+			remoteInfo = tapColor;
+		};
+		3B5AA3F81D902DAE00F2FDA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B5AA3D01D902DAE00F2FDA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B5AA3D71D902DAE00F2FDA4;
+			remoteInfo = tapColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B5AA3D81D902DAE00F2FDA4 /* tapColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tapColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5AA3DB1D902DAE00F2FDA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B5AA3DD1D902DAE00F2FDA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B5AA3E01D902DAE00F2FDA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B5AA3E21D902DAE00F2FDA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B5AA3E51D902DAE00F2FDA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B5AA3E71D902DAE00F2FDA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B5AA3EC1D902DAE00F2FDA4 /* tapColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tapColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5AA3F01D902DAE00F2FDA4 /* tapColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tapColorTests.swift; sourceTree = "<group>"; };
+		3B5AA3F21D902DAE00F2FDA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B5AA3F71D902DAE00F2FDA4 /* tapColorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tapColorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5AA3FB1D902DAE00F2FDA4 /* tapColorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tapColorUITests.swift; sourceTree = "<group>"; };
+		3B5AA3FD1D902DAE00F2FDA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B5AA3D51D902DAE00F2FDA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5AA3E91D902DAE00F2FDA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5AA3F41D902DAE00F2FDA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B5AA3CF1D902DAE00F2FDA4 = {
+			isa = PBXGroup;
+			children = (
+				3B5AA3DA1D902DAE00F2FDA4 /* tapColor */,
+				3B5AA3EF1D902DAE00F2FDA4 /* tapColorTests */,
+				3B5AA3FA1D902DAE00F2FDA4 /* tapColorUITests */,
+				3B5AA3D91D902DAE00F2FDA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B5AA3D91D902DAE00F2FDA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B5AA3D81D902DAE00F2FDA4 /* tapColor.app */,
+				3B5AA3EC1D902DAE00F2FDA4 /* tapColorTests.xctest */,
+				3B5AA3F71D902DAE00F2FDA4 /* tapColorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B5AA3DA1D902DAE00F2FDA4 /* tapColor */ = {
+			isa = PBXGroup;
+			children = (
+				3B5AA3DB1D902DAE00F2FDA4 /* AppDelegate.swift */,
+				3B5AA3DD1D902DAE00F2FDA4 /* ViewController.swift */,
+				3B5AA3DF1D902DAE00F2FDA4 /* Main.storyboard */,
+				3B5AA3E21D902DAE00F2FDA4 /* Assets.xcassets */,
+				3B5AA3E41D902DAE00F2FDA4 /* LaunchScreen.storyboard */,
+				3B5AA3E71D902DAE00F2FDA4 /* Info.plist */,
+			);
+			path = tapColor;
+			sourceTree = "<group>";
+		};
+		3B5AA3EF1D902DAE00F2FDA4 /* tapColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B5AA3F01D902DAE00F2FDA4 /* tapColorTests.swift */,
+				3B5AA3F21D902DAE00F2FDA4 /* Info.plist */,
+			);
+			path = tapColorTests;
+			sourceTree = "<group>";
+		};
+		3B5AA3FA1D902DAE00F2FDA4 /* tapColorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B5AA3FB1D902DAE00F2FDA4 /* tapColorUITests.swift */,
+				3B5AA3FD1D902DAE00F2FDA4 /* Info.plist */,
+			);
+			path = tapColorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B5AA3D71D902DAE00F2FDA4 /* tapColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B5AA4001D902DAE00F2FDA4 /* Build configuration list for PBXNativeTarget "tapColor" */;
+			buildPhases = (
+				3B5AA3D41D902DAE00F2FDA4 /* Sources */,
+				3B5AA3D51D902DAE00F2FDA4 /* Frameworks */,
+				3B5AA3D61D902DAE00F2FDA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tapColor;
+			productName = tapColor;
+			productReference = 3B5AA3D81D902DAE00F2FDA4 /* tapColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B5AA3EB1D902DAE00F2FDA4 /* tapColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B5AA4031D902DAE00F2FDA4 /* Build configuration list for PBXNativeTarget "tapColorTests" */;
+			buildPhases = (
+				3B5AA3E81D902DAE00F2FDA4 /* Sources */,
+				3B5AA3E91D902DAE00F2FDA4 /* Frameworks */,
+				3B5AA3EA1D902DAE00F2FDA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B5AA3EE1D902DAE00F2FDA4 /* PBXTargetDependency */,
+			);
+			name = tapColorTests;
+			productName = tapColorTests;
+			productReference = 3B5AA3EC1D902DAE00F2FDA4 /* tapColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B5AA3F61D902DAE00F2FDA4 /* tapColorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B5AA4061D902DAE00F2FDA4 /* Build configuration list for PBXNativeTarget "tapColorUITests" */;
+			buildPhases = (
+				3B5AA3F31D902DAE00F2FDA4 /* Sources */,
+				3B5AA3F41D902DAE00F2FDA4 /* Frameworks */,
+				3B5AA3F51D902DAE00F2FDA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B5AA3F91D902DAE00F2FDA4 /* PBXTargetDependency */,
+			);
+			name = tapColorUITests;
+			productName = tapColorUITests;
+			productReference = 3B5AA3F71D902DAE00F2FDA4 /* tapColorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B5AA3D01D902DAE00F2FDA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = www;
+				TargetAttributes = {
+					3B5AA3D71D902DAE00F2FDA4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TQ42Q3YS7A;
+					};
+					3B5AA3EB1D902DAE00F2FDA4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TQ42Q3YS7A;
+						TestTargetID = 3B5AA3D71D902DAE00F2FDA4;
+					};
+					3B5AA3F61D902DAE00F2FDA4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TQ42Q3YS7A;
+						TestTargetID = 3B5AA3D71D902DAE00F2FDA4;
+					};
+				};
+			};
+			buildConfigurationList = 3B5AA3D31D902DAE00F2FDA4 /* Build configuration list for PBXProject "tapColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B5AA3CF1D902DAE00F2FDA4;
+			productRefGroup = 3B5AA3D91D902DAE00F2FDA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B5AA3D71D902DAE00F2FDA4 /* tapColor */,
+				3B5AA3EB1D902DAE00F2FDA4 /* tapColorTests */,
+				3B5AA3F61D902DAE00F2FDA4 /* tapColorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B5AA3D61D902DAE00F2FDA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5AA3E61D902DAE00F2FDA4 /* LaunchScreen.storyboard in Resources */,
+				3B5AA3E31D902DAE00F2FDA4 /* Assets.xcassets in Resources */,
+				3B5AA3E11D902DAE00F2FDA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5AA3EA1D902DAE00F2FDA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5AA3F51D902DAE00F2FDA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B5AA3D41D902DAE00F2FDA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5AA3DE1D902DAE00F2FDA4 /* ViewController.swift in Sources */,
+				3B5AA3DC1D902DAE00F2FDA4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5AA3E81D902DAE00F2FDA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5AA3F11D902DAE00F2FDA4 /* tapColorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5AA3F31D902DAE00F2FDA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5AA3FC1D902DAE00F2FDA4 /* tapColorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B5AA3EE1D902DAE00F2FDA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B5AA3D71D902DAE00F2FDA4 /* tapColor */;
+			targetProxy = 3B5AA3ED1D902DAE00F2FDA4 /* PBXContainerItemProxy */;
+		};
+		3B5AA3F91D902DAE00F2FDA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B5AA3D71D902DAE00F2FDA4 /* tapColor */;
+			targetProxy = 3B5AA3F81D902DAE00F2FDA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B5AA3DF1D902DAE00F2FDA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B5AA3E01D902DAE00F2FDA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B5AA3E41D902DAE00F2FDA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B5AA3E51D902DAE00F2FDA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B5AA3FE1D902DAE00F2FDA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B5AA3FF1D902DAE00F2FDA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B5AA4011D902DAE00F2FDA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tapColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = st.tapColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B5AA4021D902DAE00F2FDA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tapColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = st.tapColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B5AA4041D902DAE00F2FDA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tapColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = st.tapColorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tapColor.app/tapColor";
+			};
+			name = Debug;
+		};
+		3B5AA4051D902DAE00F2FDA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tapColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = st.tapColorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tapColor.app/tapColor";
+			};
+			name = Release;
+		};
+		3B5AA4071D902DAE00F2FDA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tapColorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = st.tapColorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tapColor;
+			};
+			name = Debug;
+		};
+		3B5AA4081D902DAE00F2FDA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tapColorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = st.tapColorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tapColor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B5AA3D31D902DAE00F2FDA4 /* Build configuration list for PBXProject "tapColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5AA3FE1D902DAE00F2FDA4 /* Debug */,
+				3B5AA3FF1D902DAE00F2FDA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B5AA4001D902DAE00F2FDA4 /* Build configuration list for PBXNativeTarget "tapColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5AA4011D902DAE00F2FDA4 /* Debug */,
+				3B5AA4021D902DAE00F2FDA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B5AA4031D902DAE00F2FDA4 /* Build configuration list for PBXNativeTarget "tapColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5AA4041D902DAE00F2FDA4 /* Debug */,
+				3B5AA4051D902DAE00F2FDA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B5AA4061D902DAE00F2FDA4 /* Build configuration list for PBXNativeTarget "tapColorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5AA4071D902DAE00F2FDA4 /* Debug */,
+				3B5AA4081D902DAE00F2FDA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B5AA3D01D902DAE00F2FDA4 /* Project object */;
+}
